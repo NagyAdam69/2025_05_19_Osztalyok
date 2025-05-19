@@ -13,11 +13,13 @@ class Student:
     def studied(self, points):
         self.score += points
 
-tivadar = Student("El Tivadar", 16, "male", "Stresszelt")
+tivadar = Student("El Tivadar", "male", "Stresszelt", 16)
 leila = Student("Leila hercegnő", "female", "Tired")
 
 tivadar.introduce()
 tivadar.studied(12)
 tivadar.introduce()
 
+leila.introduce()
+leila.studied(-2)
 leila.introduce()
